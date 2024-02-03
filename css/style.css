@@ -1295,6 +1295,19 @@ frame
   color: rgb(0, 0, 0);
 }
 
+/* Default styles for the logo */
+.mil-frame-top .mil-logo {
+  pointer-events: all;
+  color: rgb(0, 0, 0) ;
+}
+
+/* Invert color on desktop devices */
+@media screen and (min-width: 1200px) {
+  .mil-frame-top .mil-logo {
+    filter: brightness(1) invert(0) !important;
+  }
+}
+
 /* -------------------------------------------
 
 menu button
