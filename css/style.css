@@ -1305,6 +1305,7 @@ frame
 @media screen and (min-width: 1200px) {
   .mil-frame-top .mil-logo {
     filter: brightness(1) invert(0) !important;
+    font-size: 22px;
   }
 }
 
