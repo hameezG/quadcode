@@ -498,55 +498,58 @@ social buttons
 
 ------------------------------------------- */
 
-.social-media-buttons {
-  display: flex;
-  justify-content: left;
-  gap: 20px;
- 
-}
+    .social-media-buttons {
+        display: flex;
+        justify-content: left;
+        gap: 20px;
+    }
 
-.social-media-buttons a {
-  display: inline-block;
-  width: 80px;
-  height: 80px;
-  background-color: #333;
-  border-radius: 50%;
-  text-align: center;
-  line-height: 80px;
-  color: #fff;
-  transition: background-color 0.3s ease;
-}
-@media (max-width: 767px) {
-  .social-media-buttons a {
-      width: 60px;
-      height: 60px;
-      line-height: 55px;
-      margin-top: -30px;
-      margin-bottom: 50px;
-      font-size: 24px; /* Adjust font size accordingly */
-  }
-}
+    .social-media-buttons button {
+        display: inline-block;
+        width: 80px;
+        height: 80px;
+        background-color: #333;
+        border-radius: 50%;
+        text-align: center;
+        line-height: 80px;
+        color: #fff;
+        transition: background-color 0.3s ease;
+        border: none; /* Remove button border */
+        cursor: pointer; /* Add pointer cursor */
+    }
 
-.social-media-buttons a:hover {
-  background-color: #4267B2; /* Facebook */
-}
+    @media (max-width: 767px) {
+        .social-media-buttons button {
+            width: 60px;
+            height: 60px;
+            line-height: 55px;
+            margin-top: -30px;
+            margin-bottom: 50px;
+            font-size: 24px; /* Adjust font size accordingly */
+        }
+    }
 
-.social-media-buttons a.twitter:hover {
-  background-color: #1DA1F2; /* Twitter */
-}
+    .social-media-buttons button:hover {
+        background-color: #4267B2; /* Facebook */
+    }
 
-.social-media-buttons a.whatsapp:hover {
-  background-color: #25D366; /* WhatsApp */
-}
+    .social-media-buttons button.twitter:hover {
+        background-color: #1DA1F2; /* Twitter */
+    }
 
-.social-media-buttons a.instagram:hover {
-  background-color: #E4405F; /* Instagram */
-}
+    .social-media-buttons button.whatsapp:hover {
+        background-color: #25D366; /* WhatsApp */
+    }
 
-/* Font Awesome Icons */
-.social-media-buttons a i {
-  font-size: 20px;
-}
+    .social-media-buttons button.instagram:hover {
+        background-color: #E4405F; /* Instagram */
+    }
+
+    /* Font Awesome Icons */
+    .social-media-buttons button i {
+        font-size: 20px;
+    }
+
 
 /* -------------------------------------------
 
